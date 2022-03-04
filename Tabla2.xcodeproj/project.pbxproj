@@ -14,6 +14,9 @@
 		D5BCD50C27D263E40031C074 /* Tabla2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5BCD50A27D263E40031C074 /* Tabla2.xcdatamodeld */; };
 		D5BCD50E27D263E70031C074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BCD50D27D263E70031C074 /* Assets.xcassets */; };
 		D5BCD51127D263E70031C074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BCD50F27D263E70031C074 /* LaunchScreen.storyboard */; };
+		D5BCD51927D265800031C074 /* TableViewControllerTarjeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCD51827D265800031C074 /* TableViewControllerTarjeta.swift */; };
+		D5BCD51B27D265AC0031C074 /* TableViewCellTarjeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCD51A27D265AC0031C074 /* TableViewCellTarjeta.swift */; };
+		D5BCD51D27D276C90031C074 /* TarjetaEstatica.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCD51C27D276C90031C074 /* TarjetaEstatica.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		D5BCD50D27D263E70031C074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5BCD51027D263E70031C074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5BCD51227D263E70031C074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5BCD51827D265800031C074 /* TableViewControllerTarjeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerTarjeta.swift; sourceTree = "<group>"; };
+		D5BCD51A27D265AC0031C074 /* TableViewCellTarjeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellTarjeta.swift; sourceTree = "<group>"; };
+		D5BCD51C27D276C90031C074 /* TarjetaEstatica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetaEstatica.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				D5BCD50F27D263E70031C074 /* LaunchScreen.storyboard */,
 				D5BCD51227D263E70031C074 /* Info.plist */,
 				D5BCD50A27D263E40031C074 /* Tabla2.xcdatamodeld */,
+				D5BCD51827D265800031C074 /* TableViewControllerTarjeta.swift */,
+				D5BCD51A27D265AC0031C074 /* TableViewCellTarjeta.swift */,
+				D5BCD51C27D276C90031C074 /* TarjetaEstatica.swift */,
 			);
 			path = Tabla2;
 			sourceTree = "<group>";
@@ -142,9 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5BCD50627D263E40031C074 /* ViewController.swift in Sources */,
+				D5BCD51B27D265AC0031C074 /* TableViewCellTarjeta.swift in Sources */,
 				D5BCD50C27D263E40031C074 /* Tabla2.xcdatamodeld in Sources */,
+				D5BCD51927D265800031C074 /* TableViewControllerTarjeta.swift in Sources */,
 				D5BCD50227D263E40031C074 /* AppDelegate.swift in Sources */,
 				D5BCD50427D263E40031C074 /* SceneDelegate.swift in Sources */,
+				D5BCD51D27D276C90031C074 /* TarjetaEstatica.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
